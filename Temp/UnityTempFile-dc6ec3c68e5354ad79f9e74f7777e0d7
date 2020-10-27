@@ -310,6 +310,13 @@
 /define:ENABLE_LEGACY_INPUT_MANAGER
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
+"Assets/Character.cs"
+"Assets/CharacterAction.cs"
+"Assets/CharacterActionController.cs"
+"Assets/CharacterManager.cs"
+"Assets/CycleManager.cs"
+"Assets/Eat.cs"
+"Assets/Eatable.cs"
 "Assets/Handy.cs"
 "Assets/Heavy.cs"
 "Assets/Iron.cs"
@@ -320,6 +327,8 @@
 "Assets/Tag.cs"
 "Assets/TagFactory.cs"
 "Assets/Thing.cs"
+"Assets/ThingController.cs"
 "Assets/Usable.cs"
+"Assets/Use.cs"
 "Assets/Visible.cs"
 "Assets/Weight.cs"

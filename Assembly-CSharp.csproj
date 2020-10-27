@@ -58,6 +58,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Character.cs" />
+     <Compile Include="Assets\CharacterAction.cs" />
+     <Compile Include="Assets\CharacterActionController.cs" />
+     <Compile Include="Assets\CharacterManager.cs" />
+     <Compile Include="Assets\CycleManager.cs" />
+     <Compile Include="Assets\Eat.cs" />
+     <Compile Include="Assets\Eatable.cs" />
      <Compile Include="Assets\Handy.cs" />
      <Compile Include="Assets\Heavy.cs" />
      <Compile Include="Assets\Iron.cs" />
@@ -68,7 +75,9 @@
      <Compile Include="Assets\Tag.cs" />
      <Compile Include="Assets\TagFactory.cs" />
      <Compile Include="Assets\Thing.cs" />
+     <Compile Include="Assets\ThingController.cs" />
      <Compile Include="Assets\Usable.cs" />
+     <Compile Include="Assets\Use.cs" />
      <Compile Include="Assets\Visible.cs" />
      <Compile Include="Assets\Weight.cs" />
  <Reference Include="Unity.Timeline.Editor">
