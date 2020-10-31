@@ -63,6 +63,7 @@
      <Compile Include="Assets\CharacterActionController.cs" />
      <Compile Include="Assets\CharacterManager.cs" />
      <Compile Include="Assets\CycleManager.cs" />
+     <Compile Include="Assets\DialogueManager.cs" />
      <Compile Include="Assets\Eat.cs" />
      <Compile Include="Assets\Eatable.cs" />
      <Compile Include="Assets\Handy.cs" />

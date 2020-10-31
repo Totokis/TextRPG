@@ -14,4 +14,5 @@ public class CycleManager: MonoBehaviour
             FindObjectOfType<CharacterManager>().ProccesActionsOnCharacters();
         }
     }
+    
 }

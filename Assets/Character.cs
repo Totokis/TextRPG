@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Character : MonoBehaviour
@@ -7,6 +8,7 @@ public class Character : MonoBehaviour
     [SerializeField] private Thing thing;
     private CharacterActionController _characterActionController;
     private ThingController _thingController;
+    private DialogueController _dialogueController;
     
     public CharacterActionController CharacterActionController => _characterActionController;
     public ThingController ThingController => _thingController;
@@ -26,6 +28,7 @@ public class Character : MonoBehaviour
         _characterActionController.EnqueueCharacterAction(action);
         var thing = this.thing;
         _thingController.AddThingToEquipment(thing);
+        
     }
     
     private void AssignToManager()
@@ -34,4 +37,9 @@ public class Character : MonoBehaviour
         Debug.Log($"{Name}--added");
     }
     
+}
+
+public class DialogueController
+{
+    List<string> dialogueList = new List<string>();
 }
