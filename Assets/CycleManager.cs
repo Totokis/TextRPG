@@ -11,7 +11,6 @@ public class CycleManager: MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("Clicked");
-            FindObjectOfType<CharacterManager>().ProccesActionsOnCharacters();
         }
     }
     
